@@ -32,10 +32,12 @@
 			background: radial-gradient(circle at 15% 25%, var(--bg-3) 0%, transparent 45%),
 				radial-gradient(circle at 85% 15%, var(--bg-2) 0%, transparent 48%),
 				linear-gradient(135deg, #fffdf8 0%, var(--bg-1) 58%, #efe9dd 100%);
-			display: grid;
-			place-items: center;
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
 			padding: 24px;
-			overflow: hidden;
+			overflow-x: hidden;
+			overflow-y: auto;
 		}
 
 		body::before,
