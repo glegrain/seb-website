@@ -109,6 +109,27 @@
 			animation: fadeIn 700ms ease-out 420ms both;
 		}
 
+		.photo-wrap {
+			margin: 0 0 28px;
+			animation: fadeIn 700ms ease-out 500ms both;
+		}
+
+		.photo {
+			display: block;
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+			border-radius: 18px;
+			border: 1px solid rgba(20, 58, 51, 0.12);
+			box-shadow: 0 12px 32px rgba(31, 42, 36, 0.16);
+		}
+
+		.photo-caption {
+			margin-top: 10px;
+			font-size: 0.94rem;
+			color: #2a4f47;
+		}
+
 		.highlight {
 			margin: 24px 0 30px;
 			border-left: 5px solid var(--accent);
@@ -199,6 +220,11 @@
 			Toute l'équipe te souhaite le meilleur pour la suite. Ton énergie, ton professionnalisme et ta bonne humeur
 			vont nous manquer, mais on est surtout très heureux pour cette nouvelle aventure qui t'attend.
 		</p>
+
+		<figure class="photo-wrap" aria-label="Photo souvenir de Sébastien">
+			<img class="photo" src="IMG_4369.JPG" alt="Photo de Sébastien" loading="lazy" />
+			<figcaption class="photo-caption">Un beau souvenir avant ce nouveau départ.</figcaption>
+		</figure>
 
 		<section class="highlight" aria-label="Information de virement">
 			<p>
